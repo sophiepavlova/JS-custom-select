@@ -1,4 +1,6 @@
-class Dropdown {}
+class Dropdown {
+  constructor() {}
+}
 const dropdown = new Dropdown("#dropdown", {
   items: [
     { label: "Москва", id: "spb" },
